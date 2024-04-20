@@ -47,7 +47,6 @@ void setup() {
     Serial.println("Connectando MQTT...");
     if(client.connect("ESP32Client"))
     delay(500);
-    delay(500);
   }
   analogReadResolution(12);
 
